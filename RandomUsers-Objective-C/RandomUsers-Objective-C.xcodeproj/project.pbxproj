@@ -13,6 +13,9 @@
 		6E9F58512374E2C900F1D21B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F58502374E2C900F1D21B /* Assets.xcassets */; };
 		6E9F58542374E2C900F1D21B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E9F58522374E2C900F1D21B /* LaunchScreen.storyboard */; };
 		6E9F58572374E2C900F1D21B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9F58562374E2C900F1D21B /* main.m */; };
+		9E2C12C52374F9820083EF4E /* PeopleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C12C42374F9820083EF4E /* PeopleDetailViewController.m */; };
+		9E2C12C82374F9C20083EF4E /* PeopleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C12C72374F9C20083EF4E /* PeopleTableViewController.m */; };
+		9E2C12CB2374FAF20083EF4E /* WCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2C12CA2374FAF20083EF4E /* WCPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		6E9F58532374E2C900F1D21B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E9F58552374E2C900F1D21B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E9F58562374E2C900F1D21B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E2C12C32374F9820083EF4E /* PeopleDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeopleDetailViewController.h; sourceTree = "<group>"; };
+		9E2C12C42374F9820083EF4E /* PeopleDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeopleDetailViewController.m; sourceTree = "<group>"; };
+		9E2C12C62374F9C20083EF4E /* PeopleTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeopleTableViewController.h; sourceTree = "<group>"; };
+		9E2C12C72374F9C20083EF4E /* PeopleTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeopleTableViewController.m; sourceTree = "<group>"; };
+		9E2C12C92374FAF20083EF4E /* WCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCPerson.h; sourceTree = SOURCE_ROOT; };
+		9E2C12CA2374FAF20083EF4E /* WCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCPerson.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +102,10 @@
 		6E9F585F2374E30E00F1D21B /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9E2C12C32374F9820083EF4E /* PeopleDetailViewController.h */,
+				9E2C12C62374F9C20083EF4E /* PeopleTableViewController.h */,
+				9E2C12C72374F9C20083EF4E /* PeopleTableViewController.m */,
+				9E2C12C42374F9820083EF4E /* PeopleDetailViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -107,6 +120,8 @@
 		6E9F58612374E31C00F1D21B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9E2C12C92374FAF20083EF4E /* WCPerson.h */,
+				9E2C12CA2374FAF20083EF4E /* WCPerson.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -181,8 +196,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2C12CB2374FAF20083EF4E /* WCPerson.m in Sources */,
+				9E2C12C82374F9C20083EF4E /* PeopleTableViewController.m in Sources */,
 				6E9F58462374E2C700F1D21B /* AppDelegate.m in Sources */,
 				6E9F58572374E2C900F1D21B /* main.m in Sources */,
+				9E2C12C52374F9820083EF4E /* PeopleDetailViewController.m in Sources */,
 				6E9F58492374E2C700F1D21B /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
